@@ -6,17 +6,7 @@ angular.module("tags", [])
   return {
     restrict: "E",
     scope: { tags: "=" },
-    template: "<div class='tags'><input type='text' ng-disabled='tags.length == maxTags'
-              placeholder='Add a tag...''
-              ng-model='newValue'>
-              </input>
-              <a
-                ng-repeat='(id, tag) in tags'
-                class='tag'>
-                {{tag}}
-                <i  ng-click='remove(id)'></i>
-              </a>
-            </div>",
+    template: "<div class='tags'><input type='text' ng-disabled='tags.length == maxTags' placeholder='Add a tag...' ng-model='newValue'></input><a ng-repeat='(id, tag) in tags' class='tag'>{{tag}} <i  ng-click='remove(id)'></i> </a></div>",
     link: function ( $scope, $element, attribs ) {
       var input = angular.element( $element.find("input") );
       $scope.maxTags = attribs.maxtags;

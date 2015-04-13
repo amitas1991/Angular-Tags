@@ -1,0 +1,51 @@
+.post-tags {
+  margin-top: 5px;
+}
+.add-tag {
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-size: 20px;
+}
+.active {      
+  background-image: url("/assets/add.png");
+}
+.inactive {
+  background-image: url("/assets/AddIcon_Inactive.png");
+}
+
+hr {
+  border-top: 1px solid #c9c9c9 !important;
+  margin-top: 10px !important;
+  margin-bottom: 5px;
+}
+.tags {
+  width: 100%;
+}
+.tag {
+  color: #777777 !important;
+  background-color: white;
+  border: 1px solid #DDD;
+  padding: 6px;
+  margin-right: 10px;
+}
+.tag > i:before {
+  content: "\f00d";
+  font-family: FontAwesome;
+  display: inline;
+  color: #aaa !important;
+  font-style: normal;
+  font-weight: normal;
+  padding: 3px;
+}     
+.tag > i:hover {
+  color: red;
+  text-decoration: none;
+}
+  
+input {
+  margin-bottom: 10px !important;
+  display: block;
+  height: 23px;
+}
+  
+
