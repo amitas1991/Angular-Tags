@@ -9,11 +9,12 @@
   "main": "tag.js",
   "keywords": [
     "Tags",
+    "Angular-Tags",
+    "tags-on-tab",
     "Angular",
-    "tags",
-    "Angular",
-    "tag",
-    "directive"
+    "input-tag",
+    "directive",
+    "input-tag",
   ],
   "license": "MIT",
   "ignore": [
