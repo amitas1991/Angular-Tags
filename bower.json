@@ -1,0 +1,27 @@
+{
+  "name": "Angular-Tags",
+  "version": "0.0.0",
+  "homepage": "https://github.com/amitas1991/Angular-Tags",
+  "authors": [
+    "amita@live.in"
+  ],
+  "description": "Add tags using angular directive",
+  "main": "tag.js",
+  "keywords": [
+    "Tags",
+    "Angular",
+    "tags",
+    "Angular",
+    "tag",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
