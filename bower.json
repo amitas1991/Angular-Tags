@@ -8,12 +8,13 @@
   "description": "Add tags using angular directive",
   "main": "tag.js",
   "keywords": [
-    "Tags",
+    "Angular-Tag",
     "Angular-Tags",
-    "tags-on-tab",
-    "Angular",
-    "input-tag",
-    "directive",
+    "angular-tags-on-tab",
+    "Angular-tagmanager",
+    "tagmanager",
+    "angular-input-tag",
+    "angular tag directive",
     "input-tag"
   ],
   "license": "MIT",
